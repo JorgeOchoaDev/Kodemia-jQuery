@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+.square.green-square {
+  background: green;
+  box-shadow: 5px 5px;
+}
+.square.red-square {
+  background: red;
+}
+.square.song {
+  background: gray;
+}
+.square.favorite {
+  background: blue;
+}
+
+.likes {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
+.songbox {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+}
+
+/*# sourceMappingURL=styles.css.map */
